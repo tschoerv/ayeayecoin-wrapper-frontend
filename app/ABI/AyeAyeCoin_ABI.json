@@ -1,0 +1,44 @@
+[
+    {
+           "constant": false,
+           "inputs": [
+               {
+                   "name": "_to",
+                   "type": "address"
+               },
+               {
+                   "name": "_value",
+                   "type": "uint256"
+               }
+           ],
+           "name": "sendCoin",
+           "outputs": [
+               {
+                   "name": "",
+                   "type": "bool"
+               }
+           ],
+           "payable": true,
+           "stateMutability": "payable",
+           "type": "function"
+       },
+     {
+           "constant": true,
+           "inputs": [
+               {
+                   "name": "_param1",
+                   "type": "address"
+               }
+           ],
+           "name": "coinBalanceOf",
+           "outputs": [
+               {
+                   "name": "balance",
+                   "type": "uint256"
+               }
+           ],
+           "payable": true,
+           "stateMutability": "view",
+           "type": "function"
+       }
+   ]
