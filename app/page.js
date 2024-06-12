@@ -322,9 +322,9 @@ export default function Home() {
 
         <div className="flex flex-row mt-1 mb-4 text-white">
           <p>made by&nbsp;</p>
-          <Link href={`https://twitter.com/tschoerv`} color='secondary' isExternal>
-            tschoerv.eth
-          </Link>
+          <Link href={`https://twitter.com/tschoerv`} className=" bg-yellow-500 rounded-md" color='primary' isExternal>
+          &nbsp;tschoerv.eth&nbsp;
+        </Link>
           <p>&nbsp;- donations welcome!</p>
         </div>
         </div>
