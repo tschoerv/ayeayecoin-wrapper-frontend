@@ -279,7 +279,7 @@ export default function Home() {
         </div>
 
         <Link href={`https://holders.ayeayecoin.xyz`} className="md:text-base text-xs mt-4" isExternal>
-        <Button auto className=" bg-yellow-500 border-2 border-black" >
+        <Button auto className=" bg-yellow-500 border-1 border-black" >
          AyeAyeCoin Holders List&nbsp;&rarr;
         </Button>
       </Link>
