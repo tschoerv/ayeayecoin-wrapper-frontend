@@ -278,6 +278,12 @@ export default function Home() {
         </Card>
         </div>
 
+        <Link href={`https://holders.ayeayecoin.xyz`} className="md:text-base text-xs mt-4" isExternal>
+        <Button auto className=" bg-yellow-500 border-2 border-black" >
+         AyeAyeCoin Holders List&nbsp;&rarr;
+        </Button>
+      </Link>
+
         <Link href={`https://ayeayecoin.xyz/`} className='mt-4' isExternal>
         <Image
           src="/AyeAyeCircle.png"
